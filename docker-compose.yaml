@@ -5,12 +5,12 @@ services:
     image: mysql:5.7
     container_name: ebook_db
     environment:
-      MYSQL_ROOT_PASSWORD: # password
-      MYSQL_DATABASE: # db
-      MYSQL_USER: # user
-      MYSQL_PASSWORD: # user_password
+      MYSQL_ROOT_PASSWORD: asdfg032589
+      MYSQL_DATABASE: ebook
+      MYSQL_USER: ebook
+      MYSQL_PASSWORD: mitc
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - db_data:/var/lib/mysql
 
